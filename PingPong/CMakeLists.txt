@@ -11,7 +11,6 @@ set(HEADERS
     IRenderer.h
     SFMLRenderer.h
     Paddle.h
-    IRenderable.h
     SFMLRectangle.h
     LogManager.h
 )
