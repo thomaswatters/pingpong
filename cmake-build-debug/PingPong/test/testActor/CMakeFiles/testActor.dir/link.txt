@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/testActor.dir/testActor.cpp.o CMakeFiles/testActor.dir/main.cpp.o  -o testActor -rdynamic ../../../lib/libgtestd.a ../../../lib/libgmock_maind.a ../../../lib/libgmockd.a ../../../lib/libgtestd.a -lpthread 
