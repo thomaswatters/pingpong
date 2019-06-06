@@ -26,7 +26,7 @@ class Length
    * Retrieves S
    * @return the stored S
    */
-  int getS() const
+  int get_s() const
   {
     return _s;
   }
@@ -36,5 +36,5 @@ class Length
 
 inline bool operator==(const Length& left, const Length& right)
 {
-  return left.getS() == right.getS();
+  return left.get_s() == right.get_s();
 }

@@ -18,7 +18,7 @@ class Rect2D
 
   Vector2D bottom_right() const
   {
-    return top_left() + Vector2D{_width.getS(), _height.getS()};
+    return top_left() + Vector2D{_width.get_s(), _height.get_s()};
   }
 
   Length width() const

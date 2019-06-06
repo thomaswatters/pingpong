@@ -29,6 +29,6 @@ TEST_F(ActorTest, ActorGetPositionReturns00AfterSetPosVector01)
 {
   Actor actor{};
   Vector2D expected{0,1};
-  actor.setpos(expected);
+  actor.set_pos(expected);
   EXPECT_EQ(actor.pos(), expected);
 }

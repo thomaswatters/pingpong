@@ -23,7 +23,7 @@ class Actor
    * Sets the position of the Actor
    * @param pos position to update actor
    */
-  void setpos(const Vector2D& pos)
+  void set_pos(const Vector2D &pos)
   {
     _position = pos;
   }
