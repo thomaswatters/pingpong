@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/testPingPong.dir/testActor.cpp.o CMakeFiles/testPingPong.dir/main.cpp.o CMakeFiles/testPingPong.dir/testVector2d.cpp.o CMakeFiles/testPingPong.dir/testRect2D.cpp.o  -o testPingPong -rdynamic ../../../lib/libgtestd.a ../../../lib/libgmock_maind.a ../../../lib/libgmockd.a ../../../lib/libgtestd.a -lpthread 

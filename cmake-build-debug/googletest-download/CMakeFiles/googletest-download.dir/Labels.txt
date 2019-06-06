@@ -1,0 +1,14 @@
+# Target labels
+ googletest-download
+# Source files and their labels
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/CMakeFiles/googletest-download
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/CMakeFiles/googletest-download.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/CMakeFiles/googletest-download-complete.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-install.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-mkdir.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-download.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-patch.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-configure.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-build.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-test.rule
+/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-skip-update.rule

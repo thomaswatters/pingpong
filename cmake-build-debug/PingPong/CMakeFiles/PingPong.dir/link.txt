@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/PingPong.dir/main.cpp.o  -o PingPong -rdynamic /usr/local/lib/libsfml-graphics.so.2.5.0 /usr/local/lib/libsfml-window.so.2.5.0 /usr/local/lib/libsfml-system.so.2.5.0 -Wl,-rpath,/usr/local/lib 

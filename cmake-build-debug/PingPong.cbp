@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="PingPong" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\PingPong\;CMake Files\PingPong\test\;CMake Files\PingPong\test\googletest\;CMake Files\PingPong\test\testPingPong\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest-src\;CMake Files\cmake-build-debug\googletest-src\googlemock\;CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\googletest-src\googletest\;CMake Files\cmake-build-debug\googletest-src\googletest\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\;CMake Files\thirdparty\;CMake Files\thirdparty\spdlog\;CMake Files\thirdparty\spdlog\cmake\;CMake Files\thirdparty\spdlog\tests\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PingPong">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/PingPong" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 PingPong" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="PingPong/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/PingPong" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 PingPong/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Nightly">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 Nightly" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Continuous">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 Continuous" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Experimental">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 Experimental" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gmock">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/include" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gmock/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/include" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gmock_main">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/include" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gmock_main/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/include" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googlemock/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-build/googletest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testPingPong">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/testPingPong" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/include" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 testPingPong" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="testPingPong/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/testPingPong" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/PingPong" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/include" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest" />
+            <Add directory="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 testPingPong/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/PingPong/test/testPingPong/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="spdlog_headers_for_ide">
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/Makefile&quot;  VERBOSE=1 spdlog_headers_for_ide" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="spdlog-utests">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/spdlog-utests" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 spdlog-utests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="spdlog-utests/fast">
+         <Option output="/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/spdlog-utests" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 spdlog-utests/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/thomaswatters/workspace/PingPong/cmake-build-debug/thirdparty/spdlog/tests/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/Actor.h">
+         <Option target="PingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/IDrawable.h">
+         <Option target="PingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/Length.h">
+         <Option target="PingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/Rect2D.h">
+         <Option target="PingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/Vector2D.h">
+         <Option target="PingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/main.cpp">
+         <Option target="PingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/main.cpp">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/testActor.cpp">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/testActor.h">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/testRect2D.cpp">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/testRect2D.h">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/testVector2d.cpp">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/testVector2d.h">
+         <Option target="testPingPong"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/src/gmock-all.cc">
+         <Option target="gmock"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/src/gmock_main.cc">
+         <Option target="gmock_main"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/src/gtest-all.cc">
+         <Option target="gtest"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/src/gtest_main.cc">
+         <Option target="gtest_main"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/async.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/async_logger.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/common.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/async_logger_impl.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/circular_q.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/console_globals.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/file_helper.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/fmt_helper.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/log_msg.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/logger_impl.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/mpmc_blocking_q.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/null_mutex.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/os.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/pattern_formatter.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/periodic_worker.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/registry.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/details/thread_pool.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/colors.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/core.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/format-inl.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/locale.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/ostream.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/posix.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/printf.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/ranges.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/bundled/time.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/fmt.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/fmt/ostr.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/formatter.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/logger.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/android_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/ansicolor_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/base_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/basic_file_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/daily_file_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/dist_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/msvc_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/null_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/ostream_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/rotating_file_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/stdout_color_sinks.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/stdout_sinks.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/syslog_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/sinks/wincolor_sink.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/spdlog.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/tweakme.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/include/spdlog/version.h">
+         <Option target="spdlog_headers_for_ide"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/errors.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/file_helper.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/file_log.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/includes.h">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/main.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/registry.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/test_async.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/test_macros.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/test_misc.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/test_pattern_formatter.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/utils.cpp">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/utils.h">
+         <Option target="spdlog-utests"/>
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\PingPong\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\PingPong\test\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\PingPong\test\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\PingPong\test\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\PingPong\test\testPingPong\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/PingPong/test/testPingPong/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\PingPong\test\testPingPong\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake/modules/DownloadProject.cmake">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake/modules/DownloadProject.CMakeLists.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake/modules/DownloadProject.cmake">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake/modules/DownloadProject.CMakeLists.cmake.in">
+          <Option virtualFolder="CMake Files\cmake\modules\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googlemock/cmake/gmock_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/Config.cmake.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/Config.cmake.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/Config.cmake.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/Config.cmake.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/Config.cmake.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/cmake-build-debug/googletest-src/googletest/cmake/gtest_main.pc.in">
+          <Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/cmake/spdlog.pc.in">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/cmake/spdlog.pc.in">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\cmake\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\tests\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\tests\" />
+      </Unit>
+      <Unit filename="/home/thomaswatters/workspace/PingPong/thirdparty/spdlog/tests/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\thirdparty\spdlog\tests\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
