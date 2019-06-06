@@ -2,4 +2,10 @@
 
 class Paddle : public Actor
 {
+ public:
+
+
+  void draw(IRenderer &renderer) const override
+  {
+  }
 };

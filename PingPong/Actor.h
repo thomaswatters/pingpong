@@ -4,7 +4,7 @@
 /**
  * Represents an entity that exists in the world
  */
-class Actor
+class Actor : public IDrawable
 {
  public:
     /**
@@ -35,6 +35,11 @@ class Actor
   Vector2D pos()
   {
     return _position;
+  }
+
+  void draw(IRenderer&) const override
+  {
+    // no visuals
   }
 
  private:

@@ -1,9 +1,11 @@
 #pragma once
 
 #include "Rect2D.h"
+
+class IRenderer;
+
 class IDrawable
 {
  public:
-  virtual void draw() = 0;
-  virtual Rect2D get_rect() = 0;
+  virtual void draw(IRenderer& renderer) const = 0;
 };
